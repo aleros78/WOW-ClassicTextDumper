@@ -1,0 +1,12 @@
+## Interface: 11501
+## Title: ClassicTextDumper
+## Notes: Extracts Quest, Gossip, Item, and Spell text to SavedVariables for localization purposes.
+## Author: Antigravity
+## Version: 1.0
+## SavedVariables: ClassicTextDumperDB
+
+core.lua
+quest.lua
+gossip.lua
+tooltip.lua
+spell.lua
