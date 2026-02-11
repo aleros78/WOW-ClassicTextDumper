@@ -1,0 +1,28 @@
+{
+  "name": "wow-classic-text-ingest",
+  "version": "1.0.0",
+  "description": "WoW Classic Text Ingest Tool",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "luaparse": "^0.3.1",
+    "sql.js": "^1.13.0",
+    "yargs": "^17.7.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.9",
+    "@types/luaparse": "^0.2.1",
+    "@types/node": "^20.11.19",
+    "@types/sql.js": "^1.4.9",
+    "@types/yargs": "^17.0.32",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}

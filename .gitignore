@@ -39,3 +39,35 @@ luac.out
 *.x86_64
 *.hex
 
+# --- Node.js / TypeScript ---
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# --- Database files (SQLite) ---
+*.db
+*.db-shm
+*.db-wal
+
+# --- Upload/Processing directories ---
+# Keep structure but ignore uploaded files
+tools/ingest/upload/*.lua
+tools/ingest/upload/done/*.lua
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS specific ---
+.DS_Store
+Thumbs.db
